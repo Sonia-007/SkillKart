@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="CromeTest">
+ 	
+    <classes>
+      <class name="com.etrading.skillkart.scripts.TestCase001"/>
+      <!-- <class name="com.etrading.skillkart.scripts.TestCase002"/>
+      <class name="com.etrading.skillkart.scripts.TestCase003"/>
+      <class name="com.etrading.skillkart.scripts.TestCase004"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
