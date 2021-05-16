@@ -38,6 +38,7 @@ public class BaseTest implements AutoConstants
 			System.setProperty(CHROME_KEY, CHROME_PATH);
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-notifications");
+			
 			driver = new ChromeDriver(options);	
 		}
 		else if(browser.equalsIgnoreCase("firefox"))
@@ -46,6 +47,7 @@ public class BaseTest implements AutoConstants
 			FirefoxOptions options = new FirefoxOptions();
 			options.addPreference("dom.webnotifications.enabled", false);
 			driver = new FirefoxDriver(options);
+			System.out.println("hi");
 		}
 		else
 		{
